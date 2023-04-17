@@ -1,6 +1,6 @@
-<x-app-layout>
+<x-admin-layout>
     <x-slot name="header">
-        <h1>This is User Daashboard!</h1>
+        <h1>This is Admin Dashboard!</h1>
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Dashboard') }}
         </h2>
@@ -15,4 +15,4 @@
             </div>
         </div>
     </div>
-</x-app-layout>
+</x-admin-layout>
